@@ -39,9 +39,7 @@ const LocationsGrid = () => {
   return (
     <div className=" border-2 text-blue-200 border-black border-solid rounded-3xl px-6 py-12 mt-12">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl text-black font-bold text-white text-center mb-12">
-          Properties Available In
-        </h2>
+
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {locations.map((region) => (

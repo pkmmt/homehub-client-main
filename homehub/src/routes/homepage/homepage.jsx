@@ -121,6 +121,7 @@ const HomePage = () => {
           </Link>
         </div>
       </div>
+      <h2  className="text-xl xs:text-2xl text-center sm:text-3xl font-bold text-gray-900">Locations</h2>
       <LocationsGrid />
       <SoonHome />
       <Footer />
